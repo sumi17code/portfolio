@@ -1,0 +1,135 @@
+/* This is header css */
+
+.container{
+    background-color:  var(--bacground-color);
+    padding: 0px 60px;
+    color: var(--primary-font-color);
+  }
+
+.header-container{
+    height: 100%;
+   
+    background-image: url(./images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.navbar{
+   
+    padding-top:20px;
+    color:var(--primary-font-color);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 36px;
+}
+
+.menu-bar{
+    width: 175px;
+    text-align: right;
+}
+
+.banner-title h1{
+    font-weight:bolder;
+    font-size: 117px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 40px 0px;
+}
+
+.banner-description p{
+    font-weight:bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: justify;
+   
+}
+.banner-profile-container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--primary-font-color);
+    border-bottom: 1px solid var(--primary-font-color);
+ 
+}
+.banner-image-container{
+    background-color:var(--primary-font-color);
+    width: fit-content;
+    
+}
+.banner-image-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: 40px;
+   
+    
+}
+.work-icon-container{
+    display:flex;
+    gap: 10px;
+    padding: 20px;
+    border-bottom: 1px solid var(--primary-font-color);
+}
+
+
+.check-icon{
+    width: 60px;
+    height: 80px;
+}
+
+#banner-image{
+   height: 300px;
+}
+
+.complete-project-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.complete-project-card h1{
+    font-size: 152px ;
+}
+
+.complete-project-card p{
+    font-size: 30px ;
+}
+
+
+
+/* This is media query */
+
+
+
+@media only screen and (min-width:200px) and (max-width: 576px) {
+
+.container{
+    padding:0px 5px;
+}
+ .navbar{
+    font-size:14px;
+    color:red;
+ }
+ .complete-project-container{
+    flex-direction: column;
+ }
+ 
+.banner-title h1{
+   
+    font-size: 25px;
+   
+}
+.banner-profile-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.banner-image-container{
+  
+    width: 100%;
+
+}
+#banner-image{
+    width: 100%;
+}
+}

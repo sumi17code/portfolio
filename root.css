@@ -1,0 +1,19 @@
+/* This is root css */
+
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+
+
+:root{
+    --bacground-color:#0C0418;
+    --primary-font-color:white;
+    --primary-color:#BA0BF9;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Antonio", sans-serif;
+    font-weight: 400;
+}
+
